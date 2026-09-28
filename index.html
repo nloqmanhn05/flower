@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Living Particle Flower — Distinct Dynamic Behaviors</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="auto-progress-container">
+  <div class="auto-progress-bar" id="progressBar"></div>
+</div>
+
+<div class="theater-hud">
+  <div class="hud-actions">
+    <button class="hud-btn" id="prevBtn" title="Previous Bloom (Left Arrow)">&#10094;</button>
+    <button class="hud-btn" id="burstBtn" title="Trigger Dispersal (Space / Click)">&#10022;</button>
+    <button class="hud-btn" id="nextBtn" title="Next Bloom (Right Arrow)">&#10095;</button>
+    <button class="hud-btn" id="fullscreenBtn" title="Toggle Fullscreen (F)">&#x26F6;</button>
+  </div>
+</div>
+
+<div class="canvas-stage">
+  <canvas id="c"></canvas>
+</div>
+
+<div class="hint">CLICK ANYWHERE TO INTERACT &bull; EACH FLOWER HAS UNIQUE BEHAVIOR & DISPERSAL</div>
+
+<script src="script.js"></script>
+</body>
+</html>
